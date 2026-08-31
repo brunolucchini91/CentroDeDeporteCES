@@ -1,0 +1,67 @@
+Localizadores CSS y XPath
+
+Actividad correspondiente al Taller de Automatización del Testing Funcional.
+
+1. START BOOTSTRAP
+
+CSS:
+.masthead-heading
+
+XPath:
+//h1[@class='masthead-heading text-uppercase mb-0']
+
+
+2. Graphic Artist - Web Designer - Illustrator
+
+CSS:
+.masthead-subheading
+
+XPath:
+//p[@class='masthead-subheading font-weight-light mb-0']
+
+
+3. Padre del párrafo de About
+
+CSS:
+.col-lg-4.ms-auto
+
+XPath:
+//div[@class='col-lg-4 ms-auto']
+
+
+4. Padre del elemento que contiene la dirección
+
+CSS:
+
+XPath:
+//footer/div/div/div[1]
+
+No se encontró un localizador CSS único utilizando únicamente los selectores trabajados en el material del curso.
+
+
+5. Elemento de la red social LinkedIn
+
+CSS:
+
+XPath:
+//footer/div/div/div[2]/a[3]
+
+No se encontró un localizador CSS que permitiera seleccionar el enlace completo de LinkedIn utilizando únicamente los selectores trabajados en el material del curso.
+
+
+6. Botón "Free Download!"
+
+CSS:
+.btn-xl.btn-outline-light
+
+XPath:
+//a[@href='https://startbootstrap.com/theme/freelancer/']
+
+
+7. Imagen de la cabaña
+
+CSS:
+.portfolio-item [src="assets/img/portfolio/cabin.png"]
+
+XPath:
+//div[@class='portfolio-item mx-auto']//img[@src='assets/img/portfolio/cabin.png']

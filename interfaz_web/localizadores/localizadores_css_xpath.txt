@@ -36,7 +36,7 @@ CSS:
 XPath:
 //footer/div/div/div[1]
 
-No se encontró un localizador CSS único utilizando únicamente los selectores trabajados en el material del curso.
+No se encontró un localizador CSS único.
 
 
 5. Elemento de la red social LinkedIn

@@ -5,10 +5,10 @@ Actividad correspondiente al Taller de Automatización del Testing Funcional.
 1. START BOOTSTRAP
 
 CSS:
-.masthead-heading
+a.navbar-brand
 
 XPath:
-//h1[@class='masthead-heading text-uppercase mb-0']
+//a[@class='navbar-brand']
 
 
 2. Graphic Artist - Web Designer - Illustrator
@@ -32,21 +32,19 @@ XPath:
 4. Padre del elemento que contiene la dirección
 
 CSS:
+footer .row > div:first-child
 
 XPath:
 //footer/div/div/div[1]
-
-No se encontró un localizador CSS único.
 
 
 5. Elemento de la red social LinkedIn
 
 CSS:
+footer .btn-social:nth-of-type(3)
 
 XPath:
 //footer/div/div/div[2]/a[3]
-
-No se encontró un localizador CSS que permitiera seleccionar el enlace completo de LinkedIn utilizando únicamente los selectores trabajados en el material del curso.
 
 
 6. Botón "Free Download!"
@@ -61,7 +59,7 @@ XPath:
 7. Imagen de la cabaña
 
 CSS:
-.portfolio-item [src="assets/img/portfolio/cabin.png"]
+div[data-bs-target="#portfolioModal1"]
 
 XPath:
-//div[@class='portfolio-item mx-auto']//img[@src='assets/img/portfolio/cabin.png']
+//div[@data-bs-target='#portfolioModal1']
